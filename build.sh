@@ -1,0 +1,1 @@
+g++ -o tensorfuxx/tensorfuxx_c.so -shared -fPIC -fopenmp tensorfuxx/tensorfuxx_c.cpp -lmkl_rt -O4  -I/opt/intel/mkl/include  -lmkl_core -lmkl_intel_lp64 -lmkl_intel_thread -liomp5 -lpthread -lm -L/opt/intel/mkl/lib/intel64 -L/opt/intel/lib/intel64
